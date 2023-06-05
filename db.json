@@ -18,7 +18,7 @@
       ],
       "age": 30,
       "hobbies": ["reading", "playing guitar"],
-      "profile_picture": "./flatSpaceImages/user1/1.png",
+      "profile_picture": "./images/flatSpaceImages/user1/1.png",  
       "pictures": ["pic1.jpg", "pic2.jpg", "pic3.jpg"]
     },
     {
@@ -39,7 +39,7 @@
       ],
       "age": 28,
       "hobbies": ["painting", "hiking"],
-      "profile_picture": "emma_johnson.jpg",
+      "profile_picture": "./images/flatSpaceImages/user2/2.jpg",
       "pictures": ["pic4.jpg", "pic5.jpg", "pic6.jpg"]
     },
     {
@@ -60,7 +60,7 @@
       ],
       "age": 29,
       "hobbies": ["photography", "hiking"],
-      "profile_picture": "olivia_clark.jpg",
+      "profile_picture": "./images/flatSpaceImages/user1/3.jpg",
       "pictures": ["pic7.jpg", "pic8.jpg", "pic9.jpg"]
     },
     {
@@ -81,7 +81,7 @@
           ],
           "age": 32,
           "hobbies": ["surfing", "playing basketball"],
-          "profile_picture": "james_wilson.jpg",
+          "profile_picture": "./images/flatSpaceImages/user4/4.png",
           "pictures": ["pic21.jpg", "pic22.jpg", "pic23.jpg"]
         },
         {
@@ -102,7 +102,7 @@
           ],
           "age": 29,
           "hobbies": ["reading", "dancing"],
-          "profile_picture": "sophia_white.jpg",
+          "profile_picture": "./images/flatSpaceImages/user5/5.jpg",
           "pictures": ["pic24.jpg", "pic25.jpg", "pic26.jpg"]
         },
         {
@@ -123,7 +123,7 @@
           ],
           "age": 33,
           "hobbies": ["playing guitar", "cooking"],
-          "profile_picture": "michael_davis.jpg",
+          "profile_picture": "./images/flatSpaceImages/user6/6.jpg",
           "pictures": ["pic27.jpg", "pic28.jpg", "pic29.jpg"]
         },
         {
@@ -144,7 +144,7 @@
           ],
           "age": 27,
           "hobbies": ["painting", "hiking"],
-          "profile_picture": "isabella_anderson.jpg",
+          "profile_picture": "./images/flatSpaceImages/user7/7.jpg",
           "pictures": ["pic30.jpg", "pic31.jpg", "pic32.jpg"]
         },
         {
