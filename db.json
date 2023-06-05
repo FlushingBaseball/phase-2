@@ -1,4 +1,5 @@
-[
+{
+"Users": [
     {
       "id": 1,
       "username": "john",
@@ -420,5 +421,5 @@
           "pictures": ["pic79.jpg", "pic80.jpg", "pic81.jpg"]
         }
       ]
-         
+    }
   
