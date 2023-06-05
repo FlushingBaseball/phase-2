@@ -3,7 +3,7 @@ function MiniUser({profile_picture, username, location}) {
     return (
         <div className="Mini-User">
 
-            <h3>{username}</h3>
+            <h3 className="name">{username}</h3>
             <img alt="Mini User Profie Pic" src={profile_picture}></img>
             <h5 className="location" >{location}</h5>
 
@@ -11,6 +11,18 @@ function MiniUser({profile_picture, username, location}) {
     )
 }
 export default MiniUser
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 // "id": 1,
 // "username": "john",
