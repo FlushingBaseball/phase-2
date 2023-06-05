@@ -17,7 +17,7 @@
       ],
       "age": 30,
       "hobbies": ["reading", "playing guitar"],
-      "profile_picture": "john_smith.jpg",
+      "profile_picture": "./flatSpaceImages/user1/1.png",
       "pictures": ["pic1.jpg", "pic2.jpg", "pic3.jpg"]
     },
     {
