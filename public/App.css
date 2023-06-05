@@ -1,6 +1,6 @@
 
    .Mini-User {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
   }
   
@@ -13,7 +13,8 @@
   
   .Mini-User img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
   }
   
   .Mini-User .name {
