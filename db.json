@@ -60,7 +60,7 @@
       ],
       "age": 29,
       "hobbies": ["photography", "hiking"],
-      "profile_picture": "./images/flatSpaceImages/user1/3.jpg",
+      "profile_picture": "./images/flatSpaceImages/user3/3.jpg",
       "pictures": ["pic7.jpg", "pic8.jpg", "pic9.jpg"]
     },
     {
@@ -165,7 +165,7 @@
           ],
           "age": 31,
           "hobbies": ["photography", "playing soccer"],
-          "profile_picture": "daniel_thompson.jpg",
+          "profile_picture": "./images/flatSpaceImages/user8/8.jpg",
           "pictures": ["pic33.jpg", "pic34.jpg", "pic35.jpg"]
         },
         {
@@ -186,7 +186,7 @@
           ],
           "age": 27,
           "hobbies": ["photography", "dancing"],
-          "profile_picture": "mia_young.jpg",
+          "profile_picture": "./images/flatSpaceImages/user9/9.png",
           "pictures": ["pic36.jpg", "pic37.jpg", "pic38.jpg"]
         },
         {
@@ -207,7 +207,7 @@
           ],
           "age": 30,
           "hobbies": ["reading", "playing video games"],
-          "profile_picture": "ethan_hill.jpg",
+          "profile_picture": "./images/flatSpaceImages/user10/10.jpg",
           "pictures": ["pic39.jpg", "pic40.jpg", "pic41.jpg"]
         },
         {
@@ -228,7 +228,7 @@
           ],
           "age": 26,
           "hobbies": ["painting", "yoga"],
-          "profile_picture": "lily_turner.jpg",
+          "profile_picture": "./images/flatSpaceImages/user11/11.jpg",
           "pictures": ["pic42.jpg", "pic43.jpg", "pic44.jpg"]
         },
         {
@@ -249,7 +249,7 @@
           ],
           "age": 29,
           "hobbies": ["traveling", "playing tennis"],
-          "profile_picture": "logan_martinez.jpg",
+          "profile_picture": "./images/flatSpaceImages/user12/12.jpg",
           "pictures": ["pic45.jpg", "pic46.jpg", "pic47.jpg"]
         },
         {
@@ -270,7 +270,7 @@
           ],
           "age": 32,
           "hobbies": ["reading", "dancing"],
-          "profile_picture": "grace_adams.jpg",
+          "profile_picture": "./images/flatSpaceImages/user13/13.jpg",
           "pictures": ["pic58.jpg", "pic59.jpg", "pic60.jpg"]
         },
         {
@@ -291,7 +291,7 @@
           ],
           "age": 31,
           "hobbies": ["playing basketball", "cooking"],
-          "profile_picture": "caleb_wright.jpg",
+          "profile_picture": "./images/flatSpaceImages/user14/14.jpg",
           "pictures": ["pic61.jpg", "pic62.jpg", "pic63.jpg"]
         },
         {
@@ -312,7 +312,7 @@
           ],
           "age": 28,
           "hobbies": ["painting", "hiking"],
-          "profile_picture": "ella_king.jpg",
+          "profile_picture": "./images/flatSpaceImages/user15/15.jpg",
           "pictures": ["pic64.jpg", "pic65.jpg", "pic66.jpg"]
         },
         {
@@ -333,7 +333,7 @@
           ],
           "age": 29,
           "hobbies": ["surfing", "playing guitar"],
-          "profile_picture": "henry_flores.jpg",
+          "profile_picture": "./images/flatSpaceImages/user16/16.jpg",
           "pictures": ["pic67.jpg", "pic68.jpg", "pic69.jpg"]
         },
         {
@@ -354,7 +354,7 @@
           ],
           "age": 30,
           "hobbies": ["reading", "dancing"],
-          "profile_picture": "scarlett_bailey.jpg",
+          "profile_picture": "./images/flatSpaceImages/user17/17.jpg",
           "pictures": ["pic70.jpg", "pic71.jpg", "pic72.jpg"]
         },
         {
@@ -375,7 +375,7 @@
           ],
           "age": 33,
           "hobbies": ["playing soccer", "cooking"],
-          "profile_picture": "nathan_russell.jpg",
+          "profile_picture": "./images/flatSpaceImages/user18/18.png",
           "pictures": ["pic73.jpg", "pic74.jpg", "pic75.jpg"]
         },
         {
@@ -396,7 +396,7 @@
           ],
           "age": 27,
           "hobbies": ["photography", "hiking"],
-          "profile_picture": "zoey_coleman.jpg",
+          "profile_picture": "./images/flatSpaceImages/user19/19.jpg",
           "pictures": ["pic76.jpg", "pic77.jpg", "pic78.jpg"]
         },
         {
@@ -417,7 +417,7 @@
           ],
           "age": 26,
           "hobbies": ["painting", "hiking"],
-          "profile_picture": "lucas_evans.jpg",
+          "profile_picture": "./images/flatSpaceImages/user20/20.jpg",
           "pictures": ["pic79.jpg", "pic80.jpg", "pic81.jpg"]
         }
       ]

@@ -1,11 +1,11 @@
 
 function MiniUser({profile_picture, username, location}) {
     return (
-        <div>
+        <div className="Mini-User">
 
             <h3>{username}</h3>
             <img alt="Mini User Profie Pic" src={profile_picture}></img>
-            <h5>{location}</h5>
+            <h5 className="location" >{location}</h5>
 
         </div>
     )
