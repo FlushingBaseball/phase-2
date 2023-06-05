@@ -1,0 +1,26 @@
+
+   .Mini-User {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Mini-User {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .Mini-User img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Mini-User .name {
+    font-weight: bold;
+  }
+  
+  .Mini-User .location {
+    color: #888;
+  }
+  
