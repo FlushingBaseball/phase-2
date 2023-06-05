@@ -3,10 +3,14 @@ import Search from "./Search"
 import NewPost from "./NewPost"
 import NewUser from "./NewUser"
 
-function userCollection() {
+function userCollection({usersArray}) {
     return (
       <div> 
-        <MiniUser />
+        {usersArray.map((user)=>{
+          return (
+            <MiniUser key={user.id} {...user} />
+             )
+        })}
         <Search />
         <NewUser />
         <NewPost />
