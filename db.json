@@ -1,44 +1,424 @@
-{
-    "users": [
-      {
-        "name": "John Doe",
-        "location": "New York",
-        "posts": [
-          "Life is what happens when you're busy making other plans.",
-          "The only way to do great work is to love what you do.",
-          "Innovation distinguishes between a leader and a follower.",
-          "Believe you can and you're halfway there.",
-          "The future belongs to those who believe in the beauty of their dreams."
-        ],
-        "age": 30,
-        "hobbies": ["reading", "running"]
-      },
-      {
-        "name": "Jane Smith",
-        "location": "London",
-        "posts": [
-          "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-          "The best revenge is massive success.",
-          "If you want to achieve greatness, stop asking for permission.",
-          "The harder I work, the luckier I get.",
-          "The only limit to our realization of tomorrow will be our doubts of today."
-        ],
-        "age": 25,
-        "hobbies": ["painting", "playing guitar"]
-      },
-      {
-        "name": "Alex Johnson",
-        "location": "San Francisco",
-        "posts": [
-          "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-          "Your time is limited, don't waste it living someone else's life.",
-          "It does not matter how slowly you go as long as you do not stop.",
-          "Success usually comes to those who are too busy to be looking for it.",
-          "The only person you are destined to become is the person you decide to be."
-        ],
-        "age": 35,
-        "hobbies": ["gardening", "photography"]
-      }
-    ]
-  }
+[
+    {
+      "id": 1,
+      "username": "john",
+      "password": "pass",
+      "name": "John Smith",
+      "location": "New York",
+      "posts": [
+        "Hello, world!",
+        "Having a great day!",
+        "Feeling blessed."
+      ],
+      "favorite_songs": [
+        "Imagine - John Lennon",
+        "Shape of You - Ed Sheeran",
+        "Don't Stop Believin' - Journey"
+      ],
+      "age": 30,
+      "hobbies": ["reading", "playing guitar"],
+      "profile_picture": "john_smith.jpg",
+      "pictures": ["pic1.jpg", "pic2.jpg", "pic3.jpg"]
+    },
+    {
+      "id": 2,
+      "username": "emma",
+      "password": "pass",
+      "name": "Emma Johnson",
+      "location": "London",
+      "posts": [
+        "Enjoying the sunshine!",
+        "Feeling grateful today.",
+        "New adventures await!"
+      ],
+      "favorite_songs": [
+        "Hey Jude - The Beatles",
+        "Bohemian Rhapsody - Queen",
+        "Hotel California - Eagles"
+      ],
+      "age": 28,
+      "hobbies": ["painting", "hiking"],
+      "profile_picture": "emma_johnson.jpg",
+      "pictures": ["pic4.jpg", "pic5.jpg", "pic6.jpg"]
+    },
+    {
+      "id": 3,
+      "username": "olivia",
+      "password": "pass",
+      "name": "Olivia Clark",
+      "location": "Sydney",
+      "posts": [
+        "Chasing dreams!",
+        "Exploring new places.",
+        "Making memories."
+      ],
+      "favorite_songs": [
+        "Wonderwall - Oasis",
+        "Smells Like Teen Spirit - Nirvana",
+        "Imagine - John Lennon"
+      ],
+      "age": 29,
+      "hobbies": ["photography", "hiking"],
+      "profile_picture": "olivia_clark.jpg",
+      "pictures": ["pic7.jpg", "pic8.jpg", "pic9.jpg"]
+    },
+    {
+          "id": 4,
+          "username": "james",
+          "password": "pass",
+          "name": "James Wilson",
+          "location": "Los Angeles",
+          "posts": [
+            "Living life to the fullest!",
+            "Enjoying the little things.",
+            "Dream big, achieve bigger."
+          ],
+          "favorite_songs": [
+            "Shape of You - Ed Sheeran",
+            "Bohemian Rhapsody - Queen",
+            "Lose Yourself - Eminem"
+          ],
+          "age": 32,
+          "hobbies": ["surfing", "playing basketball"],
+          "profile_picture": "james_wilson.jpg",
+          "pictures": ["pic21.jpg", "pic22.jpg", "pic23.jpg"]
+        },
+        {
+          "id": 5,
+          "username": "sophia",
+          "password": "pass",
+          "name": "Sophia White",
+          "location": "Paris",
+          "posts": [
+            "Life is a beautiful journey.",
+            "Smile and the world smiles with you.",
+            "Grateful for every moment."
+          ],
+          "favorite_songs": [
+            "Imagine - John Lennon",
+            "Hey Jude - The Beatles",
+            "Wonderwall - Oasis"
+          ],
+          "age": 29,
+          "hobbies": ["reading", "dancing"],
+          "profile_picture": "sophia_white.jpg",
+          "pictures": ["pic24.jpg", "pic25.jpg", "pic26.jpg"]
+        },
+        {
+          "id": 6,
+          "username": "michael",
+          "password": "pass",
+          "name": "Michael Davis",
+          "location": "New York",
+          "posts": [
+            "Dream, believe, achieve!",
+            "Embracing the journey.",
+            "Creating my own path."
+          ],
+          "favorite_songs": [
+            "Hotel California - Eagles",
+            "Smells Like Teen Spirit - Nirvana",
+            "Don't Stop Believin' - Journey"
+          ],
+          "age": 33,
+          "hobbies": ["playing guitar", "cooking"],
+          "profile_picture": "michael_davis.jpg",
+          "pictures": ["pic27.jpg", "pic28.jpg", "pic29.jpg"]
+        },
+        {
+          "id": 7,
+          "username": "isabella",
+          "password": "pass",
+          "name": "Isabella Anderson",
+          "location": "London",
+          "posts": [
+            "Carpe Diem!",
+            "Living in the moment.",
+            "Every day is a new beginning."
+          ],
+          "favorite_songs": [
+            "Wonderwall - Oasis",
+            "Shape of You - Ed Sheeran",
+            "Hey Jude - The Beatles"
+          ],
+          "age": 27,
+          "hobbies": ["painting", "hiking"],
+          "profile_picture": "isabella_anderson.jpg",
+          "pictures": ["pic30.jpg", "pic31.jpg", "pic32.jpg"]
+        },
+        {
+          "id": 8,
+          "username": "daniel",
+          "password": "pass",
+          "name": "Daniel Thompson",
+          "location": "Sydney",
+          "posts": [
+            "Seize the day!",
+            "Never stop learning.",
+            "Be the change you wish to see."
+          ],
+          "favorite_songs": [
+            "Smells Like Teen Spirit - Nirvana",
+            "Bohemian Rhapsody - Queen",
+            "Imagine - John Lennon"
+          ],
+          "age": 31,
+          "hobbies": ["photography", "playing soccer"],
+          "profile_picture": "daniel_thompson.jpg",
+          "pictures": ["pic33.jpg", "pic34.jpg", "pic35.jpg"]
+        },
+        {
+          "id": 9,
+          "username": "mia",
+          "password": "pass",
+          "name": "Mia Young",
+          "location": "Los Angeles",
+          "posts": [
+            "Every day is a new opportunity.",
+            "Smiling through the ups and downs.",
+            "Creating memories that last a lifetime."
+          ],
+          "favorite_songs": [
+            "Shape of You - Ed Sheeran",
+            "Hotel California - Eagles",
+            "Bohemian Rhapsody - Queen"
+          ],
+          "age": 27,
+          "hobbies": ["photography", "dancing"],
+          "profile_picture": "mia_young.jpg",
+          "pictures": ["pic36.jpg", "pic37.jpg", "pic38.jpg"]
+        },
+        {
+          "id": 10,
+          "username": "ethan",
+          "password": "pass",
+          "name": "Ethan Hill",
+          "location": "Tokyo",
+          "posts": [
+            "Rising above challenges.",
+            "Living life on my own terms.",
+            "Making each day count."
+          ],
+          "favorite_songs": [
+            "Imagine - John Lennon",
+            "Smells Like Teen Spirit - Nirvana",
+            "Lose Yourself - Eminem"
+          ],
+          "age": 30,
+          "hobbies": ["reading", "playing video games"],
+          "profile_picture": "ethan_hill.jpg",
+          "pictures": ["pic39.jpg", "pic40.jpg", "pic41.jpg"]
+        },
+        {
+          "id": 11,
+          "username": "lily",
+          "password": "pass",
+          "name": "Lily Turner",
+          "location": "Berlin",
+          "posts": [
+            "Enjoying the simple pleasures.",
+            "Embracing new experiences.",
+            "Chasing dreams with passion."
+          ],
+          "favorite_songs": [
+            "Wonderwall - Oasis",
+            "Hey Jude - The Beatles",
+            "Smells Like Teen Spirit - Nirvana"
+          ],
+          "age": 26,
+          "hobbies": ["painting", "yoga"],
+          "profile_picture": "lily_turner.jpg",
+          "pictures": ["pic42.jpg", "pic43.jpg", "pic44.jpg"]
+        },
+        {
+          "id": 12,
+          "username": "logan",
+          "password": "pass",
+          "name": "Logan Martinez",
+          "location": "Madrid",
+          "posts": [
+            "Dream big, work hard!",
+            "Embracing the journey.",
+            "Pushing beyond limits."
+          ],
+          "favorite_songs": [
+            "Bohemian Rhapsody - Queen",
+            "Smells Like Teen Spirit - Nirvana",
+            "Lose Yourself - Eminem"
+          ],
+          "age": 29,
+          "hobbies": ["traveling", "playing tennis"],
+          "profile_picture": "logan_martinez.jpg",
+          "pictures": ["pic45.jpg", "pic46.jpg", "pic47.jpg"]
+        },
+        {
+          "id": 13,
+          "username": "grace",
+          "password": "pass",
+          "name": "Grace Adams",
+          "location": "London",
+          "posts": [
+            "Embracing the beauty of life.",
+            "Every moment is a gift.",
+            "Living life to the fullest."
+          ],
+          "favorite_songs": [
+            "Imagine - John Lennon",
+            "Shape of You - Ed Sheeran",
+            "Don't Stop Believin' - Journey"
+          ],
+          "age": 32,
+          "hobbies": ["reading", "dancing"],
+          "profile_picture": "grace_adams.jpg",
+          "pictures": ["pic58.jpg", "pic59.jpg", "pic60.jpg"]
+        },
+        {
+          "id": 14,
+          "username": "caleb",
+          "password": "pass",
+          "name": "Caleb Wright",
+          "location": "New York",
+          "posts": [
+            "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+            "Your time is limited, don't waste it living someone else's life.",
+            "It does not matter how slowly you go as long as you do not stop."
+          ],
+          "favorite_songs": [
+            "Hotel California - Eagles",
+            "Hey Jude - The Beatles",
+            "Bohemian Rhapsody - Queen"
+          ],
+          "age": 31,
+          "hobbies": ["playing basketball", "cooking"],
+          "profile_picture": "caleb_wright.jpg",
+          "pictures": ["pic61.jpg", "pic62.jpg", "pic63.jpg"]
+        },
+        {
+          "id": 15,
+          "username": "ella",
+          "password": "pass",
+          "name": "Ella King",
+          "location": "San Francisco",
+          "posts": [
+            "Life is what happens when you're busy making other plans.",
+            "The only way to do great work is to love what you do.",
+            "Innovation distinguishes between a leader and a follower."
+          ],
+          "favorite_songs": [
+            "Wonderwall - Oasis",
+            "Smells Like Teen Spirit - Nirvana",
+            "Imagine - John Lennon"
+          ],
+          "age": 28,
+          "hobbies": ["painting", "hiking"],
+          "profile_picture": "ella_king.jpg",
+          "pictures": ["pic64.jpg", "pic65.jpg", "pic66.jpg"]
+        },
+        {
+          "id": 16,
+          "username": "henry",
+          "password": "pass",
+          "name": "Henry Flores",
+          "location": "Los Angeles",
+          "posts": [
+            "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+            "The best revenge is massive success.",
+            "If you want to achieve greatness, stop asking for permission."
+          ],
+          "favorite_songs": [
+            "Shape of You - Ed Sheeran",
+            "Lose Yourself - Eminem",
+            "Don't Stop Believin' - Journey"
+          ],
+          "age": 29,
+          "hobbies": ["surfing", "playing guitar"],
+          "profile_picture": "henry_flores.jpg",
+          "pictures": ["pic67.jpg", "pic68.jpg", "pic69.jpg"]
+        },
+        {
+          "id": 17,
+          "username": "scarlett",
+          "password": "pass",
+          "name": "Scarlett Bailey",
+          "location": "Paris",
+          "posts": [
+            "Don't count the days, make the days count.",
+            "Strive not to be a success, but rather to be of value.",
+            "The only way to have a friend is to be one."
+          ],
+          "favorite_songs": [
+            "Don't Stop Believin' - Journey",
+            "Hey Jude - The Beatles",
+            "Wonderwall - Oasis"
+          ],
+          "age": 30,
+          "hobbies": ["reading", "dancing"],
+          "profile_picture": "scarlett_bailey.jpg",
+          "pictures": ["pic70.jpg", "pic71.jpg", "pic72.jpg"]
+        },
+        {
+          "id": 18,
+          "username": "nathan",
+          "password": "pass",
+          "name": "Nathan Russell",
+          "location": "New York",
+          "posts": [
+            "The secret to getting ahead is getting started.",
+            "Success is not in what you have, but who you are.",
+            "The only limit to our realization of tomorrow will be our doubts of today."
+          ],
+          "favorite_songs": [
+            "Imagine - John Lennon",
+            "Shape of You - Ed Sheeran",
+            "Smells Like Teen Spirit - Nirvana"
+          ],
+          "age": 33,
+          "hobbies": ["playing soccer", "cooking"],
+          "profile_picture": "nathan_russell.jpg",
+          "pictures": ["pic73.jpg", "pic74.jpg", "pic75.jpg"]
+        },
+        {
+          "id": 19,
+          "username": "zoey",
+          "password": "pass",
+          "name": "Zoey Coleman",
+          "location": "Sydney",
+          "posts": [
+            "In the middle of difficulty lies opportunity.",
+            "You miss 100% of the shots you don't take.",
+            "The future belongs to those who believe in the beauty of their dreams."
+          ],
+          "favorite_songs": [
+            "Wonderwall - Oasis",
+            "Bohemian Rhapsody - Queen",
+            "Hotel California - Eagles"
+          ],
+          "age": 27,
+          "hobbies": ["photography", "hiking"],
+          "profile_picture": "zoey_coleman.jpg",
+          "pictures": ["pic76.jpg", "pic77.jpg", "pic78.jpg"]
+        },
+        {
+          "id": 20,
+          "username": "lucas",
+          "password": "pass",
+          "name": "Lucas Evans",
+          "location": "London",
+          "posts": [
+            "Believe you can and you're halfway there.",
+            "If opportunity doesn't knock, build a door.",
+            "The only place where success comes before work is in the dictionary."
+          ],
+          "favorite_songs": [
+            "Smells Like Teen Spirit - Nirvana",
+            "Hey Jude - The Beatles",
+            "Imagine - John Lennon"
+          ],
+          "age": 26,
+          "hobbies": ["painting", "hiking"],
+          "profile_picture": "lucas_evans.jpg",
+          "pictures": ["pic79.jpg", "pic80.jpg", "pic81.jpg"]
+        }
+      ]
+         
   
