@@ -2,7 +2,7 @@
 "Users": [
     {
       "id": 1,
-      "username": "john",
+      "username": "JohnnyBoyyyyy",
       "password": "pass",
       "name": "John Smith",
       "location": "New York",
@@ -23,7 +23,7 @@
     },
     {
       "id": 2,
-      "username": "emma",
+      "username": "EmmaIsAWESOME",
       "password": "pass",
       "name": "Emma Johnson",
       "location": "London",
@@ -44,7 +44,7 @@
     },
     {
       "id": 3,
-      "username": "olivia",
+      "username": "oliviaBoBlibia",
       "password": "pass",
       "name": "Olivia Clark",
       "location": "Sydney",
@@ -86,7 +86,7 @@
         },
         {
           "id": 5,
-          "username": "sophia",
+          "username": "SorftballxxSophia",
           "password": "pass",
           "name": "Sophia White",
           "location": "Paris",
@@ -107,7 +107,7 @@
         },
         {
           "id": 6,
-          "username": "michael",
+          "username": "StrongManMichael",
           "password": "pass",
           "name": "Michael Davis",
           "location": "New York",

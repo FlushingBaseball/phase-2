@@ -1,4 +1,5 @@
 import UserCollection from "./UserCollection";
+import Header from "./Header";
 import { useEffect, useState } from "react";
 
 
@@ -7,6 +8,7 @@ function App() {
   
 const [usersArray, setUsersArray] = useState([]);
 const [Search, setSearch] = useState('');
+const [signedIn, setSignedIn] = useState(false);
 
 
 useEffect(()=>{
@@ -24,7 +26,7 @@ useEffect(()=>{
 
   return (
     <div className="App">
-        <p>HELLO FROM PHASE-2</p>
+        <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
         <UserCollection usersArray={usersArray} />
     </div>
   );
