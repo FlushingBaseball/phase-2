@@ -63,7 +63,7 @@ function NewUser({handleSubmit}) {
         <input type="number" id="age" name="age" onChange={handleInputChange} value={newUser.age} /><br /><br />
 
         <label htmlFor="hobbies">Hobbies:</label>
-        <textarea id="hobbies" name="hobbies" rows="4" cols="50" onChange={handleArrayInputChange} value={newUser.hobbies}></textarea><br /><br />
+        <textarea id="hobbies" name="hobbies" rows="6" cols="50" onChange={handleArrayInputChange} value={newUser.hobbies}></textarea><br /><br />
 
         <label htmlFor="profile_picture">Profile Picture:</label>
         <input type="text" id="profile_picture" name="profile_picture" onChange={handleInputChange} value={newUser.profile_picture}/><br /><br />
