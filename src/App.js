@@ -21,13 +21,16 @@ useEffect(()=>{
   
   
 },[])
+function handleSubmit(newUser) {
+setUsersArray(prev => [...prev, newUser])
+}
 
 
 
   return (
     <div className="App">
         <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
-        <UserCollection usersArray={usersArray} />
+        <UserCollection usersArray={usersArray} handleSubmit={handleSubmit} />
     </div>
   );
 }
