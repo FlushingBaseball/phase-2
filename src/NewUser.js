@@ -7,7 +7,7 @@ function NewUser() {
     }
   return (
     <div>
-      <button onClick={handleSignUpclick}>Sign Up</button>
+      <button onClick={handleSignUpclick}>{revealForm ? 'Close' : 'Sign Up'}</button>
       {revealForm ? <form>
         <label htmlFor="username">Username:</label>
         <input type="text" id="username" name="username" /><br /><br />
