@@ -3,7 +3,7 @@ import Search from "./Search"
 import NewPost from "./NewPost"
 import NewUser from "./NewUser"
 
-function userCollection({usersArray}) {
+function userCollection({usersArray, handleSubmit}) {
     return (
       <div> 
         {usersArray.map((user)=>{
@@ -12,7 +12,7 @@ function userCollection({usersArray}) {
              )
         })}
         <Search />
-        <NewUser />
+        <NewUser handleSubmit={handleSubmit}/>
         <NewPost />
       </div> 
     )
