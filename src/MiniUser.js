@@ -1,11 +1,15 @@
+import { Link } from "react-router-dom";
 
-function MiniUser({profile_picture, username, location}) {
+
+
+function MiniUser({profile_picture, username, id, location}) {
     return (
         <div className="Mini-User">
 
             <h3 className="name">{username}</h3>
             <img alt="Mini User Profie Pic" src={profile_picture}></img>
             <h5 className="location" >{location}</h5>
+            <Link to={`/userUniverse/${id}`}>see more</Link>
 
         </div>
     )

@@ -6,6 +6,7 @@ import HomeSplash from "./HomeSplash";
 import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
 import NotFound from "./NotFound";
+import UserFullPage from "./userFullPage";
 
 
 function App() {
@@ -40,7 +41,10 @@ setUsersArray(prev => [...prev, newUser])
         <Route exact path="/">
             <HomeSplash />
         </Route>
-        <Route path="/userUniverse">
+       <Route path="/userUniverse/:id">
+          <UserFullPage />
+        </Route>
+        <Route exact path="/userUniverse">
              <UserCollection usersArray={usersArray} />
        </Route>
         <Route path="/sign-Up">

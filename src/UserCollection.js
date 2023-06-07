@@ -1,8 +1,6 @@
 import MiniUser from "./MiniUser"
 import Search from "./Search"
-import NewPost from "./NewPost"
-import NewUser from "./NewUser"
-import { func } from "prop-types"
+
 
 
 
@@ -23,7 +21,6 @@ function userCollection({usersArray}) {
              )
         })}
         <Search />
-        <NewPost />
       </div> 
     )
 }
