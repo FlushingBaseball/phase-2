@@ -22,10 +22,9 @@ function userCollection({usersArray}) {
             <MiniUser onClick={handleMiniClick} key={user.id} {...user} />
              )
         })}
-        <Search />
-        <NewPost />
       </div> 
     )
 }
 
 export default userCollection
+

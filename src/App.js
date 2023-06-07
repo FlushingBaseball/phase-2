@@ -5,13 +5,13 @@ import { Switch, Route } from "react-router-dom"
 import HomeSplash from "./HomeSplash";
 import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
-
+import Search from "./Search";
 
 function App() {
   
 const [usersArray, setUsersArray] = useState([]);
-const [Search, setSearch] = useState('');
-const [signedIn, setSignedIn] = useState(false);
+// const [Search, setSearch] = useState('');
+// const [signedIn, setSignedIn] = useState(false);
 
 
 useEffect(()=>{
@@ -48,6 +48,7 @@ setUsersArray(prev => [...prev, newUser])
        <Route path="/sign-In">
          <SignInPage />
        </Route>
+       <Route path="/search" component={Search} />
       </Switch>
 
     </div>
