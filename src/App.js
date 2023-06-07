@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom"
 import HomeSplash from "./HomeSplash";
 import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
+import NotFound from "./NotFound";
 
 
 function App() {
@@ -47,6 +48,9 @@ setUsersArray(prev => [...prev, newUser])
        </Route>
        <Route path="/sign-In">
          <SignInPage />
+       </Route>
+       <Route path="*">
+            <NotFound />
        </Route>
       </Switch>
 

@@ -574,6 +574,24 @@
       "profile_picture": "https://i.kym-cdn.com/entries/icons/original/000/021/560/Vlcsnap-2012-12-01-11h31m26s90.png",
       "pictures": [],
       "id": 21
+    },
+    {
+      "username": "Tom ",
+      "password": "abc123",
+      "name": "Myspace Tom ",
+      "location": "New York City",
+      "posts": [],
+      "favorite_songs": [],
+      "age": "45",
+      "hobbies": [
+        "Programming",
+        " Making Websites",
+        " photography",
+        " Dancing"
+      ],
+      "profile_picture": "https://i2-prod.grimsbytelegraph.co.uk/news/article3195197.ece/ALTERNATES/s1200c/0_tomJPG.jpg",
+      "pictures": [],
+      "id": 22
     }
   ]
 }
