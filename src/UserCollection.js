@@ -26,3 +26,4 @@ function userCollection({usersArray}) {
 }
 
 export default userCollection
+
