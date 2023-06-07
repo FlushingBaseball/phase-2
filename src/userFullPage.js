@@ -1,8 +1,8 @@
-import {useState, useEffect} from 'react-router-dom'
+import {useState, useEffect} from 'react'
 import { useParams } from "react-router-dom"
 
 
-function userFullPage(){
+function  UserFullPage(){
 
     const [user, setUser] = useState(null);
     const { id } = useParams()
@@ -32,4 +32,4 @@ function userFullPage(){
 }
 
 
-export default userFullPage
+export default UserFullPage;
