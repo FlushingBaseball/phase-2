@@ -9,7 +9,7 @@ function MiniUser({profile_picture, username, id, location}) {
             <h3 className="name">{username}</h3>
             <img alt="Mini User Profie Pic" src={profile_picture}></img>
             <h5 className="location" >{location}</h5>
-            <Link to={`/userUniverse/${id}`}>see more</Link>
+            <Link to={`/UserUniverse/${id}`}>see more</Link>
 
         </div>
     )
