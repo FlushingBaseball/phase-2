@@ -6,7 +6,7 @@ import HomeSplash from "./HomeSplash";
 import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
 import NotFound from "./NotFound";
-import UserFullPage from "./userFullPage";
+import UserFullPage from "./UserFullPage";
 
 
 function App() {
