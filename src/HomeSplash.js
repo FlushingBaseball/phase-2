@@ -1,11 +1,31 @@
 function HomeSplash(){
 
     return (
-        <div className="homeSplash">
-            <h1>Welcome to FlatSpace</h1>
-            <h2>FlatSpace is the place to hangout, kick back, and be yourself</h2>
-        </div>
+
+
+            <div>
+
+            <h1>Website title</h1>
+
+        <p>blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh blahh blahh lorem ipsum dalore idk why my lorem plug in isn't working
+            blahh blahh blahh </p>
+
+
+
+
+            </div>
+        
+
+
+
     )
 }
-
-export default HomeSplash

@@ -1,12 +1,17 @@
+Phase-2 group project
 
-User Search filtering based on .includes -JP
-
-
-User page based on param use routing
+Lets find a data set
 
 
-Clean up routes. 
 
-Later today 0Auth package Sign-in, User Auth etc 
-Once user is signed in based on state var isSignedIn ? then 
-User Universe should populate each minin user card with a add friend button or whatever 
+
+
+
+
+
+
+
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
