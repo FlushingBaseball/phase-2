@@ -1,8 +1,8 @@
-import {useState, useEffect} from 'react-router-dom'
+import {useState, useEffect} from 'react'
 import { useParams } from "react-router-dom"
 
 
-function userFullPage(){
+function UserFullPage(){
 
     const [user, setUser] = useState(null);
     const { id } = useParams()
@@ -12,24 +12,25 @@ function userFullPage(){
         fetch(`http://localhost:3001/Users/${id}`)
             .then(resp => resp.json())
             .then(returnedUser => setUser(returnedUser))
-            .then(console.log(user))
     }, [id])
 
 
     if (!user) return <h2>Loading...</h2>
 
-    const { name, username, location } = user
-
+    const { name, username, location, profile_picture} = user
+  
+console.log(user)
 
 
     return (
             <div>
-                <h1>{name}</h1>
-                <h2>{location}</h2>
-                <h3>{username}</h3>
+                <h1>{username}</h1>
+                <h3>{location}</h3>
+                <h3>{name}</h3>
+                <img alt=" Profie Pic" src={profile_picture}></img>
             </div>
      )
 }
 
 
-export default userFullPage
+export default UserFullPage
