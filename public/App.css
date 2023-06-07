@@ -87,4 +87,27 @@ button.active {
   .Mini-User .location {
     color: #888;
   }
+  .posts-container {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 400px; /* Adjust the width to your desired value */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .username {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .post {
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .images {
+    max-width: 75px; /* Adjust the size of the image as needed */
+    height: 75px;
+    margin-left: 10px; /* Add some space between the username and the image */
+    border-radius: 50%;
+  }
   
