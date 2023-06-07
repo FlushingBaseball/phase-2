@@ -41,6 +41,19 @@ function NewUser({handleSubmit}) {
           })
             .then(response => response.json())
             .then(newUsr => handleSubmit(newUsr))
+            setNewUser({
+                username: '',
+                password: '',
+                name: '',
+                location: '',
+                posts: [],
+                favorite_songs: [],
+                age: 18,
+                hobbies: '',
+                profile_picture: '',  
+                pictures: []
+            }
+            )
       }
     
   return (

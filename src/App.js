@@ -34,7 +34,7 @@ setUsersArray(prev => [...prev, newUser])
   return (
     <div className="App">
 
-      <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
+      <Header />
       <Switch>
         <Route exact path="/">
             <HomeSplash />

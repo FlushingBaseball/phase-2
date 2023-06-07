@@ -7,7 +7,7 @@ import { func } from "prop-types"
 
 
 
-function userCollection({usersArray, handleSubmit}) {
+function userCollection({usersArray}) {
 
 
   function handleMiniClick(){
