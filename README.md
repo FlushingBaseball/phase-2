@@ -1,12 +1,13 @@
+##Goals
 
-User Search filtering based on .includes -JP
+Search ??? 
+
+Click a mini user and be taken to that users full profile with a route which has it's ID
+Create the user full profile page that gets populated based on ID 
 
 
-User page based on param use routing
-
-
-Clean up routes. 
-
-Later today 0Auth package Sign-in, User Auth etc 
-Once user is signed in based on state var isSignedIn ? then 
-User Universe should populate each minin user card with a add friend button or whatever 
+## sign in / sign out
+## background image API or user paste and post request
+## add friends 
+##  feed of friends posts
+## pull in music for profiles maybe idk? 
