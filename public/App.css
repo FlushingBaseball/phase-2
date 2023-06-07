@@ -1,42 +1,15 @@
-.nav {
-  width: 100%;
-  float: left;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav li {
-  float: left;
-  font-weight: bold;
-  margin-right: 15%; /* Add margin-right for spacing */
-}
-
-.nav li:last-child {
-  margin-right: 0; /* Remove margin-right for the last item */
-}
-
-.nav li a {
-  display: block;
-  padding: 8px 15px;
-  text-decoration: none;
-  color: blue;
-  border-right: 1px solid #ccc;
-}
-
-
-
-
 
 
 .homeSplash h1{
   font-size: 100px;
   font-weight: bold;
-  color: rgb(5, 5, 216);
 }
 
 
-
+.nav{
+  flex: auto;
+  padding: 0px;
+}
 
 
 

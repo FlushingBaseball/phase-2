@@ -24,6 +24,7 @@ useEffect(()=>{
   
   
 },[])
+
 function handleSubmit(newUser) {
 setUsersArray(prev => [...prev, newUser])
 }
@@ -33,7 +34,7 @@ setUsersArray(prev => [...prev, newUser])
   return (
     <div className="App">
 
-       <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
+      <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
       <Switch>
         <Route exact path="/">
             <HomeSplash />
@@ -41,15 +42,13 @@ setUsersArray(prev => [...prev, newUser])
         <Route path="/userUniverse">
              <UserCollection usersArray={usersArray} />
        </Route>
-        <Route path="/sign-up">
-          <NewUser />
+        <Route path="/sign-Up">
+          <NewUser  handleSubmit={handleSubmit} />
        </Route>
        <Route path="/sign-In">
          <SignInPage />
        </Route>
       </Switch>
-        <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
-        <UserCollection usersArray={usersArray} handleSubmit={handleSubmit} />
 
     </div>
   );

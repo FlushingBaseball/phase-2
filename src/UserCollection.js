@@ -5,17 +5,15 @@ import NewUser from "./NewUser"
 import { func } from "prop-types"
 
 
-function userCollection({usersArray}) {
+
+
+function userCollection({usersArray, handleSubmit}) {
+
 
   function handleMiniClick(){
 
     console.log("I Was clicked ")
-
   }
-
-
-=======
-function userCollection({usersArray, handleSubmit}) {
 
     return (
       <div> 
@@ -25,9 +23,9 @@ function userCollection({usersArray, handleSubmit}) {
              )
         })}
         <Search />
-        <NewUser handleSubmit={handleSubmit}/>
         <NewPost />
       </div> 
     )
 }
+
 export default userCollection
