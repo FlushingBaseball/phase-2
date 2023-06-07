@@ -8,12 +8,13 @@ import SignInPage from "./SignInPage";
 import NotFound from "./NotFound";
 import UserFullPage from "./userFullPage";
 
+import Search from "./Search";
 
 function App() {
   
 const [usersArray, setUsersArray] = useState([]);
-const [Search, setSearch] = useState('');
-const [signedIn, setSignedIn] = useState(false);
+// const [Search, setSearch] = useState('');
+// const [signedIn, setSignedIn] = useState(false);
 
 
 useEffect(()=>{
@@ -56,6 +57,7 @@ setUsersArray(prev => [...prev, newUser])
        <Route path="*">
             <NotFound />
        </Route>
+       <Route path="/search" component={Search} />
       </Switch>
 
     </div>

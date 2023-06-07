@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-
+import Search from "./Search"
 
 function Header(){
 
@@ -11,6 +11,7 @@ function Header(){
             <NavLink to="/userUniverse">User Universe</NavLink>
             <NavLink to="/sign-Up">Sign Up</NavLink>
             <NavLink to='/sign-In'>Sign In</NavLink>
+            <Search />
             </nav>
          </div>
     )
