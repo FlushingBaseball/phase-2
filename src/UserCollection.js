@@ -4,6 +4,7 @@ import NewPost from "./NewPost"
 import NewUser from "./NewUser"
 import { func } from "prop-types"
 
+
 function userCollection({usersArray}) {
 
   function handleMiniClick(){
@@ -13,6 +14,9 @@ function userCollection({usersArray}) {
   }
 
 
+=======
+function userCollection({usersArray, handleSubmit}) {
+
     return (
       <div> 
         {usersArray.map((user)=>{
@@ -21,7 +25,7 @@ function userCollection({usersArray}) {
              )
         })}
         <Search />
-        <NewUser />
+        <NewUser handleSubmit={handleSubmit}/>
         <NewPost />
       </div> 
     )

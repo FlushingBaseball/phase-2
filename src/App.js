@@ -24,11 +24,15 @@ useEffect(()=>{
   
   
 },[])
+function handleSubmit(newUser) {
+setUsersArray(prev => [...prev, newUser])
+}
 
 
 
   return (
     <div className="App">
+
        <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
       <Switch>
         <Route exact path="/">
@@ -44,6 +48,9 @@ useEffect(()=>{
          <SignInPage />
        </Route>
       </Switch>
+        <Header signedIn={signedIn} setSignedIn={setSignedIn}/>
+        <UserCollection usersArray={usersArray} handleSubmit={handleSubmit} />
+
     </div>
   );
 }
