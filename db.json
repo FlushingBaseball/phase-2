@@ -592,6 +592,36 @@
       "profile_picture": "https://i2-prod.grimsbytelegraph.co.uk/news/article3195197.ece/ALTERNATES/s1200c/0_tomJPG.jpg",
       "pictures": [],
       "id": 22
+    },
+    {
+      "username": "DaveIsHappy",
+      "password": "joejoe",
+      "name": "Dave Windelson",
+      "location": "Quebec",
+      "posts": [],
+      "favorite_songs": [],
+      "age": "109",
+      "hobbies": [
+        "Setting Forest fires"
+      ],
+      "profile_picture": "https://orig05.deviantart.net/b606/f/2015/278/a/b/angry_rabbit_by_thatrandomnerd-d9c2fua.jpg",
+      "pictures": [],
+      "id": 23
+    },
+    {
+      "username": "InternetIsEvil",
+      "password": "hot",
+      "name": "Pika",
+      "location": "Final Stage",
+      "posts": [],
+      "favorite_songs": [],
+      "age": 18,
+      "hobbies": [
+        "Pika Pika Pika"
+      ],
+      "profile_picture": "https://orig07.deviantart.net/79ba/f/2015/278/f/3/pikapi_by_thatrandomnerd-d9c2f5w.jpg",
+      "pictures": [],
+      "id": 24
     }
   ]
 }
