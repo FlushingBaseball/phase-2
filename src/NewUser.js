@@ -57,7 +57,7 @@ function NewUser({handleSubmit}) {
       }
     
   return (
-    <div>
+    <div className='formContainer'>
       <button onClick={handleSignUpclick}>{revealForm ? 'Close' : 'Sign Up'}</button>
       {revealForm ? <form onSubmit={handleSubmitClick}>
         <label htmlFor="username">Username:</label>
