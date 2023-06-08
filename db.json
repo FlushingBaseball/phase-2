@@ -21,7 +21,7 @@
         "reading",
         "playing guitar"
       ],
-      "profile_picture": "./images/flatSpaceImages/user1/1.png",
+      "profile_picture": "/images/flatSpaceImages/user1/1.png",
       "pictures": [
         "pic1.jpg",
         "pic2.jpg",

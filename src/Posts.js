@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 function Posts({ usersArray }) {
   return (
@@ -13,6 +14,7 @@ function Posts({ usersArray }) {
               {post}
             </p>
           ))}
+          <Link to={`/posts/${user.id}`}>see more</Link>
         </div>
       ))}
     </div>
