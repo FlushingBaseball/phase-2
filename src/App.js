@@ -7,6 +7,7 @@ import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
 import NotFound from "./NotFound";
 import UserFullPage from "./UserFullPage";
+import Posts from "./Posts";
 
 import Search from "./Search";
 
