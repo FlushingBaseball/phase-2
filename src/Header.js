@@ -9,7 +9,7 @@ function Header() {
         <NavLink to="/userUniverse">User Universe</NavLink>
         <NavLink to="/sign-Up">Sign Up</NavLink>
         <NavLink to="/sign-In">Sign In</NavLink>
-        <NavLink to="Search">Search</NavLink>
+        <NavLink to="/Search">Search</NavLink>
         <NavLink to="/posts">Posts</NavLink>
       </nav>
     </div>

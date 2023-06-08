@@ -19,7 +19,7 @@ function Search() {
   }
 
   return (
-    <div className='App'>
+    <div className='search'>
       <input
         type="text"
         placeholder="Searching for..."
