@@ -34,14 +34,17 @@ function Search() {
           }
         })
         .map((val, key) => (
-          <div className="user" key={key}>
+          <div className="user" key={key} style={{ display: 'flex', alignItems: 'center' }}>
             <p>{val.username}</p>
-            <img src={val.profile_picture} alt={val.username} />
+            <img
+              src={val.profile_picture}
+              alt={val.username}
+              style={{ width: '100px', height: '100px' }}
+            />
           </div>
         ))}
     </div>
   );
 }
-
 export default Search;
 

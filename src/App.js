@@ -53,13 +53,12 @@ setUsersArray(prev => [...prev, newUser])
        </Route>
        <Route path="/sign-In">
          <SignInPage />
-       </Route>
+        </Route>
+        <Route path="/Search">
+          <Search />
+          </Route>
        <Route path="*">
             <NotFound />
-       </Route>
-       {/* <Route path="/search" component={Search} /> */}
-       <Route path="/Search">
-          <Search />
        </Route>
       </Switch>
 
