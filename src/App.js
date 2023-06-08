@@ -7,9 +7,8 @@ import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
 import NotFound from "./NotFound";
 import UserFullPage from "./UserFullPage";
-import Posts from "./Posts";
-import Search from "./Search";
 
+import Search from "./Search";
 
 function App() {
   
@@ -60,11 +59,13 @@ setUsersArray(prev => [...prev, newUser])
        </Route>
        <Route path="/sign-In">
          <SignInPage />
-       </Route>
+        </Route>
+        <Route path="/Search">
+          <Search />
+          </Route>
        <Route path="*">
-          <NotFound />
+            <NotFound />
        </Route>
-       <Route path="/search" component={Search} />
       </Switch>
 
     </div>
