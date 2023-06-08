@@ -7,9 +7,8 @@ import NewUser from "./NewUser";
 import SignInPage from "./SignInPage";
 import NotFound from "./NotFound";
 import UserFullPage from "./UserFullPage";
-import Posts from "./Posts";
-import Search from "./Search";
 
+import Search from "./Search";
 
 function App() {
   
@@ -49,9 +48,6 @@ setUsersArray(prev => [...prev, newUser])
         <Route exact path="/userUniverse">
              <UserCollection usersArray={usersArray} />
        </Route>
-       <Route path="/posts" >
-          <Posts usersArray={usersArray} />
-       </Route>
         <Route path="/sign-Up">
           <NewUser  handleSubmit={handleSubmit} />
        </Route>
@@ -59,9 +55,12 @@ setUsersArray(prev => [...prev, newUser])
          <SignInPage />
        </Route>
        <Route path="*">
-          <NotFound />
+            <NotFound />
        </Route>
-       <Route path="/search" component={Search} />
+       {/* <Route path="/search" component={Search} /> */}
+       <Route path="/Search">
+          <Search />
+       </Route>
       </Switch>
 
     </div>
