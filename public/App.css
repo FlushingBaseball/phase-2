@@ -138,6 +138,69 @@ button.active {
   }
   
 
+.user-form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+#age {
+  width: 10%;
+}
+input,
+textarea {
+  width: 20%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 2% auto;
+}
+
+button.active {
+  background-color: #f44336;
+}
+
+/* Rest of the CSS remains the same */
+
+.statusUpdate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+p {
+  margin: 10px;
+  font-size: 18px;
+}
+  
+  
+
 
 
 
