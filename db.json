@@ -21,7 +21,7 @@
         "reading",
         "playing guitar"
       ],
-      "profile_picture": "./images/flatSpaceImages/user1/1.png",
+      "profile_picture": "/images/flatSpaceImages/user1/1.png",
       "pictures": [
         "pic1.jpg",
         "pic2.jpg",
@@ -49,7 +49,7 @@
         "painting",
         "hiking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user2/2.jpg",
+      "profile_picture": "/images/flatSpaceImages/user2/2.jpg",
       "pictures": [
         "pic4.jpg",
         "pic5.jpg",
@@ -77,7 +77,7 @@
         "photography",
         "hiking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user3/3.jpg",
+      "profile_picture": "/images/flatSpaceImages/user3/3.jpg",
       "pictures": [
         "pic7.jpg",
         "pic8.jpg",
@@ -105,7 +105,7 @@
         "surfing",
         "playing basketball"
       ],
-      "profile_picture": "./images/flatSpaceImages/user4/4.png",
+      "profile_picture": "/images/flatSpaceImages/user4/4.png",
       "pictures": [
         "pic21.jpg",
         "pic22.jpg",
@@ -133,7 +133,7 @@
         "reading",
         "dancing"
       ],
-      "profile_picture": "./images/flatSpaceImages/user5/5.jpg",
+      "profile_picture": "/images/flatSpaceImages/user5/5.jpg",
       "pictures": [
         "pic24.jpg",
         "pic25.jpg",
@@ -161,7 +161,7 @@
         "playing guitar",
         "cooking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user6/6.jpg",
+      "profile_picture": "/images/flatSpaceImages/user6/6.jpg",
       "pictures": [
         "pic27.jpg",
         "pic28.jpg",
@@ -189,7 +189,7 @@
         "painting",
         "hiking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user7/7.jpg",
+      "profile_picture": "/images/flatSpaceImages/user7/7.jpg",
       "pictures": [
         "pic30.jpg",
         "pic31.jpg",
@@ -217,7 +217,7 @@
         "photography",
         "playing soccer"
       ],
-      "profile_picture": "./images/flatSpaceImages/user8/8.jpg",
+      "profile_picture": "/images/flatSpaceImages/user8/8.jpg",
       "pictures": [
         "pic33.jpg",
         "pic34.jpg",
@@ -245,7 +245,7 @@
         "photography",
         "dancing"
       ],
-      "profile_picture": "./images/flatSpaceImages/user9/9.png",
+      "profile_picture": "/images/flatSpaceImages/user9/9.png",
       "pictures": [
         "pic36.jpg",
         "pic37.jpg",
@@ -273,7 +273,7 @@
         "reading",
         "playing video games"
       ],
-      "profile_picture": "./images/flatSpaceImages/user10/10.jpg",
+      "profile_picture": "/images/flatSpaceImages/user10/10.jpg",
       "pictures": [
         "pic39.jpg",
         "pic40.jpg",
@@ -301,7 +301,7 @@
         "painting",
         "yoga"
       ],
-      "profile_picture": "./images/flatSpaceImages/user11/11.jpg",
+      "profile_picture": "/images/flatSpaceImages/user11/11.jpg",
       "pictures": [
         "pic42.jpg",
         "pic43.jpg",
@@ -329,7 +329,7 @@
         "traveling",
         "playing tennis"
       ],
-      "profile_picture": "./images/flatSpaceImages/user12/12.jpg",
+      "profile_picture": "/images/flatSpaceImages/user12/12.jpg",
       "pictures": [
         "pic45.jpg",
         "pic46.jpg",
@@ -357,7 +357,7 @@
         "reading",
         "dancing"
       ],
-      "profile_picture": "./images/flatSpaceImages/user13/13.jpg",
+      "profile_picture": "/images/flatSpaceImages/user13/13.jpg",
       "pictures": [
         "pic58.jpg",
         "pic59.jpg",
@@ -385,7 +385,7 @@
         "playing basketball",
         "cooking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user14/14.jpg",
+      "profile_picture": "/images/flatSpaceImages/user14/14.jpg",
       "pictures": [
         "pic61.jpg",
         "pic62.jpg",
@@ -413,7 +413,7 @@
         "painting",
         "hiking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user15/15.jpg",
+      "profile_picture": "/images/flatSpaceImages/user15/15.jpg",
       "pictures": [
         "pic64.jpg",
         "pic65.jpg",
@@ -441,7 +441,7 @@
         "surfing",
         "playing guitar"
       ],
-      "profile_picture": "./images/flatSpaceImages/user16/16.jpg",
+      "profile_picture": "/images/flatSpaceImages/user16/16.jpg",
       "pictures": [
         "pic67.jpg",
         "pic68.jpg",
@@ -469,7 +469,7 @@
         "reading",
         "dancing"
       ],
-      "profile_picture": "./images/flatSpaceImages/user17/17.jpg",
+      "profile_picture": "/images/flatSpaceImages/user17/17.jpg",
       "pictures": [
         "pic70.jpg",
         "pic71.jpg",
@@ -497,7 +497,7 @@
         "playing soccer",
         "cooking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user18/18.png",
+      "profile_picture": "/images/flatSpaceImages/user18/18.png",
       "pictures": [
         "pic73.jpg",
         "pic74.jpg",
@@ -525,7 +525,7 @@
         "photography",
         "hiking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user19/19.jpg",
+      "profile_picture": "/images/flatSpaceImages/user19/19.jpg",
       "pictures": [
         "pic76.jpg",
         "pic77.jpg",
@@ -553,7 +553,7 @@
         "painting",
         "hiking"
       ],
-      "profile_picture": "./images/flatSpaceImages/user20/20.jpg",
+      "profile_picture": "/images/flatSpaceImages/user20/20.jpg",
       "pictures": [
         "pic79.jpg",
         "pic80.jpg",
