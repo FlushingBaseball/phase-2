@@ -295,3 +295,22 @@ p {
   height: 150px;
   width: auto;
 }
+.homeSplash {
+  background-image: url('https://cdn.britannica.com/32/93932-050-B213E0FB/ocean-water-beach-The-Bahamas-Grand-Bahama.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.homeSplashTitle {
+  font-size: 36px;
+  color: #fff;
+}
+
+.homeSplashSubtitle {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 12%;
+}
