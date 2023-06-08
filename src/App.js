@@ -43,15 +43,18 @@ setUsersArray(prev => [...prev, newUser])
         <Route exact path="/">
             <HomeSplash />
         </Route>
-       <Route path="/userUniverse/:id">
-          <UserFullPage />
-        </Route>
         <Route exact path="/userUniverse">
              <UserCollection usersArray={usersArray} />
        </Route>
-       <Route path="/posts" >
+       <Route path="/userUniverse/:id">
+          <UserFullPage />
+        </Route>
+       <Route exact path="/posts" >
           <Posts usersArray={usersArray} />
        </Route>
+       <Route path="/posts/:id">
+          <UserFullPage />
+        </Route>
         <Route path="/sign-Up">
           <NewUser  handleSubmit={handleSubmit} />
        </Route>
