@@ -275,3 +275,23 @@ p {
 .postsArea {
   display: inline-block;
 }
+
+
+
+.postsArea {
+  background-color: #00ff00;
+}
+
+.aboutMe {
+  background-color: #ff00ff;
+}
+
+.picturesArea{
+  background-color: #ff0015;
+}
+
+.picturesArea img{
+  display: grid;
+  height: 150px;
+  width: auto;
+}

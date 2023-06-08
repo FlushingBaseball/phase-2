@@ -17,7 +17,7 @@ function UserFullPage(){
 
     if (!user) return <h2>Loading...</h2>
 
-    const { name, username, location, profile_picture, age} = user
+    const { name, username, location, profile_picture, age, hobbies, pictures} = user
   
 console.log(user.profile_picture)
 
@@ -38,10 +38,29 @@ console.log(user.profile_picture)
             </div>
 
         <div className='postsArea' >
+            <h2>{username}'s Posts</h2>
             {user.posts.map((post, index)=>{
                 return(<h5 key={index}>{post}</h5>)
             })}
         </div>
+
+            <div className='aboutMe'>
+                <h3>About Me:</h3>
+                <h5>My Hobbies are: {hobbies.map((hobby)=>{return (
+                    <span> {hobby} ,</span>
+                )})}</h5>
+
+            </div>
+            <div className='picturesArea'>
+                <h3>My Pics:</h3>
+                <span> {pictures.map((pic)=>{return (
+                    <img src={pic}></img>
+                )})}</span>
+
+            </div>
+
+
+
         <div>
 
         </div>
