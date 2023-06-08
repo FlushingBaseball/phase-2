@@ -17,18 +17,39 @@ function UserFullPage(){
 
     if (!user) return <h2>Loading...</h2>
 
-    const { name, username, location, profile_picture} = user
+    const { name, username, location, profile_picture, age} = user
   
-console.log(user)
+console.log(user.profile_picture)
 
 
     return (
-            <div>
+        <div>
+
+            <div className='container'>
+             <div className='profilePicContainer'>
+                <img className='profilePic' src={require=(profile_picture)} alt=" Profie Pic"></img>
+             </div>
+             <div className='userInfo'>
                 <h1>{username}</h1>
-                <h3>{location}</h3>
-                <h3>{name}</h3>
-                <img alt=" Profie Pic" src={profile_picture}></img>
+                <h3>Location:{location}</h3>
+                <h3>Name:{name}</h3>
+                <h3>Age:{age}</h3>
+             </div>
             </div>
+
+        <div className='postsArea' >
+            {user.posts.map((post, index)=>{
+                return(<h5 key={index}>{post}</h5>)
+            })}
+        </div>
+        <div>
+
+        </div>
+
+
+
+
+        </div>
      )
 }
 
