@@ -1,4 +1,56 @@
 
+.Mini-User .location {
+  color: #f8ffff;
+  padding-top: 20px;
+  padding-left: 5px;
+  font-size: 20px;
+} 
+
+
+
+
+.Mini-User .name {
+  font-weight: bold;
+  color: #f8ffff;
+}
+
+
+
+.Mini-User a {
+  color: rgb(57, 215, 178);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.Mini-User a:hover {
+  color: #f8ffff;
+
+}  
+
+
+
+   .Mini-User {
+    display: inline-flex; 
+    flex-wrap: wrap;
+  }  
+  
+  .Mini-User {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #031f8c;
+  }  
+  
+  .Mini-User img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }  
+  
+
+
+
+
 
 .user-form {
   width: 250px;
@@ -61,32 +113,6 @@ button.active {
 }
 
 
-
-   .Mini-User {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-  
-  .Mini-User {
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .Mini-User img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  .Mini-User .name {
-    font-weight: bold;
-  }
-  
-  .Mini-User .location {
-    color: #888;
-  }
   .posts-container {
     margin-bottom: 20px;
     text-align: center;
@@ -111,3 +137,141 @@ button.active {
     border-radius: 50%;
   }
   
+
+.user-form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+#age {
+  width: 10%;
+}
+input,
+textarea {
+  width: 20%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 2% auto;
+}
+
+button.active {
+  background-color: #f44336;
+}
+
+/* Rest of the CSS remains the same */
+
+.statusUpdate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+p {
+  margin: 10px;
+  font-size: 18px;
+}
+  
+  
+
+
+
+
+/*
+  Nav Styling
+*/
+  
+  
+  
+  .nav {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    background-color: #031f8c;
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+  }
+  
+  .nav a {
+    color: #00ffff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav a:hover {
+    color: #ff00ff;
+    text-decoration: underline;
+  }
+  
+  .nav .active {
+    color: #00ff00;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* UserFullPage.css */
+
+  /* 
+  rgb(57, 215, 178);
+  #f8ffff;
+  background-color: #031f8c; */
+  
+  
+  .container {
+    display: inline-block;
+    align-items: center;
+    background-color: #007bff;;
+  }
+  
+  .profilePicContainer {
+    margin-right: 10px;
+  }
+  
+  .profilePic {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.postsArea {
+  display: inline-block;
+}
