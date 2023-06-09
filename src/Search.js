@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Search() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -19,12 +20,16 @@ function Search() {
   }
 
   return (
-    <div className='search'>
-      <input
+    <div id='searchPage'>
+    <div id="search">
+        <input
         type="text"
-        placeholder="Searching for..."
-        onChange={event => { setSearchTerm(event.target.value) }}
+        placeholder="Who are you searching for..."
+        onChange={(event) => {
+          setSearchTerm(event.target.value);
+        }}
       />
+      </div>
       {users
         .filter((val) => {
           if (searchTerm === '') {
@@ -34,13 +39,15 @@ function Search() {
           }
         })
         .map((val, key) => (
-          <div className="user" key={key} style={{ display: 'flex', alignItems: 'center' }}>
+          <div id="userInfo" key={key} >
             <p>{val.username}</p>
-            <img
-              src={val.profile_picture}
-              alt={val.username}
-              style={{ width: '100px', height: '100px' }}
-            />
+            <Link to={`/userUniverse/${val.id}`}>
+              <img
+                src={val.profile_picture}
+                alt={val.username}
+                style={{ width: '300px', height: '300px' }}
+              />
+            </Link>
           </div>
         ))}
     </div>
