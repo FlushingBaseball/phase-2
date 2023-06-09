@@ -193,7 +193,66 @@ button.active {
     color: #00ff00;
   }
   
-  
+  /* Sign-in stuff */
+#authorization{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ .userPassword{
+  margin: 20px;
+  width: 20vw;
+  height: 2vh;
+  font-size: 20px;
+  padding-left: 10px;
+} 
+  /* Search stuff */
+#search{
+  width: 90%;
+  min-height: 0.5vh;
+  padding: 5%;
+  background: linear-gradient(rgba(26, 48, 162, 0.9), rgba(232, 234, 241, 0.9));
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(205, 209, 221, 0.9);
+  justify-content: center;
+  color: #00ff00;
+}
+
+#search:hover {
+  width: 90%;
+  min-height: 10vh;
+  padding: 5%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+#search input{
+  width: 400px;
+  outline: none;
+  border: none;
+  font-size: x-large;
+  font-weight: 500;
+  transition: 0.8;
+  color: black;
+}
+
+#userInfo{
+  display: 'flex';
+  align-items: 'center';
+font-size: larger;
+
+}
+#searchPage{
+  background: rgba(205, 209, 221, 0.9);
+}
   
   
   
