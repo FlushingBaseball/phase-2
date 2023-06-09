@@ -26,7 +26,7 @@ console.log(user.profile_picture)
         <div className='entireUserPage'>
 
          <div className='userInfoContainer'>
-                <img className='profilePic' src={require=(profile_picture)} alt=" Profie Pic"></img>
+                <img className='profilePic' src={profile_picture} alt=" Profie Pic"></img>
                 <div className='userInfo'>
                      <h1>{username}</h1>
                      <h3>Location:{location}</h3>
@@ -38,8 +38,8 @@ console.log(user.profile_picture)
 
             <div className='aboutMe'>
                 <h3>About Me:</h3>
-                <h5>My Hobbies are: {hobbies.map((hobby)=>{return (
-                    <span> {hobby} ,</span>
+                <h5>My Hobbies are: <br></br> {hobbies.map((hobby, i)=>{return (
+                    <span key={i}> {hobby} <br></br></span>
                 )})}</h5>
 
             </div>
@@ -53,8 +53,8 @@ console.log(user.profile_picture)
         
             <div className='picturesArea'>
                 <h3>My Pics:</h3>
-                <span> {pictures.map((pic)=>{return (
-                    <img src={pic}></img>
+                <span> {pictures.map((pic, i)=>{return (
+                    <img key={i} src={pic}></img>
                 )})}</span>
              </div>
 
