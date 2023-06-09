@@ -1,5 +1,4 @@
 import MiniUser from "./MiniUser"
-import Search from "./Search"
 
 
 
@@ -20,7 +19,6 @@ function userCollection({usersArray}) {
             <MiniUser onClick={handleMiniClick} key={user.id} {...user} />
              )
         })}
-        <Search />
       </div> 
     )
 }

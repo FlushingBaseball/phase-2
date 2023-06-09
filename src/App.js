@@ -68,7 +68,6 @@ setUsersArray(prev => [...prev, newUser])
             <NotFound />
        </Route>
       </Switch>
-
     </div>
   );
 }
