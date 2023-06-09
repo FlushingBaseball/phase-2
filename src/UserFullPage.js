@@ -23,26 +23,18 @@ console.log(user.profile_picture)
 
 
     return (
-        <div>
+        <div className='entireUserPage'>
 
-            <div className='container'>
-             <div className='profilePicContainer'>
+         <div className='userInfoContainer'>
                 <img className='profilePic' src={require=(profile_picture)} alt=" Profie Pic"></img>
-             </div>
-             <div className='userInfo'>
-                <h1>{username}</h1>
-                <h3>Location:{location}</h3>
-                <h3>Name:{name}</h3>
-                <h3>Age:{age}</h3>
-             </div>
+                <div className='userInfo'>
+                     <h1>{username}</h1>
+                     <h3>Location:{location}</h3>
+                     <h3>Name:{name}</h3>
+                     <h3>Age:{age}</h3>
+                 </div>
             </div>
 
-        <div className='postsArea' >
-            <h2>{username}'s Posts</h2>
-            {user.posts.map((post, index)=>{
-                return(<h5 key={index}>{post}</h5>)
-            })}
-        </div>
 
             <div className='aboutMe'>
                 <h3>About Me:</h3>
@@ -51,22 +43,25 @@ console.log(user.profile_picture)
                 )})}</h5>
 
             </div>
+
+        <div className='postsArea' >
+            <h2>{username}'s Posts</h2>
+            {user.posts.map((post, index)=>{
+                return(<h5 key={index}>{post}</h5>)
+            })}
+        </div>
+        
             <div className='picturesArea'>
                 <h3>My Pics:</h3>
                 <span> {pictures.map((pic)=>{return (
                     <img src={pic}></img>
                 )})}</span>
+             </div>
 
+            
+            <div className='blankSpace'>
+                <h2>{username}'s top friends</h2>
             </div>
-
-
-
-        <div>
-
-        </div>
-
-
-
 
         </div>
      )
